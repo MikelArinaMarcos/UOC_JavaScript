@@ -1,0 +1,1 @@
+const frutas = ["limon", "naranja", "manzana"];
