@@ -45,6 +45,19 @@ h1{
     position: relative;
 }
 
+.card-buttons button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
 
+.card-link{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+}
 
 
