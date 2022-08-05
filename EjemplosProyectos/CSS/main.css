@@ -14,5 +14,37 @@ body{
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
+
+h1{
+    text-align: center;
+    color: var(--orange);
+    padding: 16px;
+}
+
+.card-list{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fix, minmax(var(--gridList-column)));
+    grid-auto-rows: var(--gridList-rows);
+    grid-template-rows: masonry;
+    grid-auto-flow: row dense;
+    grid-gap: var(--gridList-gap, 6px);
+    gap: var(--gridList-gap, 6px);
+    align-items: center;
+}
+
+.card{
+    --cardShadow-size: var(--gridList-gap, 6px);
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+
+
+
