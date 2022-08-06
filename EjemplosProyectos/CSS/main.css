@@ -60,4 +60,70 @@ h1{
     width: 100%;
 }
 
+.card h4{
+    background-color: rgb(0, 0, 0, 0.3);
+    bottom: 0;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+}
 
+.card img{
+    width: 100%;
+    object-fit: contain;
+    vertical-align: top;
+}
+
+.card{
+    margin-bottom: 0;
+}
+
+.card, .card-link{
+    height: 100%;
+}
+
+.card-link img{
+    height: inherit;
+    object-fit: cover;
+}
+
+.card:nth-child(5n + 1) img {
+    background-color: var(--brand-color_1);
+}
+
+.card:nth-child(5n + 2) img {
+    background-color: var(--brand-color_2);
+}
+
+.card:nth-child(5n + 3) img {
+    background-color: var(--brand-color_3);
+}
+
+.card:nth-child(5n + 4) img {
+    background-color: var(--brand-color_4);
+}
+
+.card:nth-child(5n + 5) img {
+    background-color: var(--brand-color_5);
+}
+
+.card:hover:nth-child(5n + 1) {
+    box-shadow: 0 0 0 var(--cardShadow-size) var(--brand-color_1);
+}
+
+.card:hover:nth-child(5n + 2) {
+    box-shadow: 0 0 0 var(--cardShadow-size) var(--brand-color_2);
+}
+
+.card:hover:nth-child(5n + 3) {
+    box-shadow: 0 0 0 var(--cardShadow-size) var(--brand-color_3);
+}
+
+.card:hover:nth-child(5n + 4) {
+    box-shadow: 0 0 0 var(--cardShadow-size) var(--brand-color_4);
+}
+
+.card:hover:nth-child(5n + 5) {
+    box-shadow: 0 0 0 var(--cardShadow-size) var(--brand-color_5);
+}
